@@ -1,0 +1,20 @@
+{
+    "config": {
+        "title": "Xiaomi Miot Air Conditioner (小米MIoT协议空调)",
+        "step": {
+            "user": {
+                "title": "请输入设备信息",
+                "data": {
+                    "host": "IP地址",
+                    "token": "设备token",
+                    "name" : "设备名称",
+                    "retries" : "连接失败后的自动重试次数"
+                }
+            }
+        },
+        "error": {
+            "platform_not_ready": "无法连接设备",
+            "unsupported_device": "不支持的设备型号"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "xiaomi_miot_air_conditioner",
+  "name": "Xiaomi Miot Air Conditioner",
+  "documentation": "https://www.example.com",
+  "dependencies": [],
+  "config_flow": true,
+  "version": "0",
+  "codeowners": [
+      "@zhangjingye03"
+  ],
+  "requirements": [
+      "python-miio>=0.5.4"
+  ]
+}

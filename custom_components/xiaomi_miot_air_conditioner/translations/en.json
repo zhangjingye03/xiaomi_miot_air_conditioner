@@ -1,0 +1,20 @@
+{
+    "config": {
+        "title": "Xiaomi Miot Air Conditioner",
+        "step": {
+            "user": {
+                "title": "Enter device information",
+                "data": {
+                    "host": "IP Address",
+                    "token": "Device token",
+                    "name" : "Device name",
+                    "retries" : "Auto retry count when polling failed"
+                }
+            }
+        },
+        "error": {
+            "platform_not_ready": "Cannot communicate with device.",
+            "unsupported_device": "Unsupported device model."
+        }
+    }
+}

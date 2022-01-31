@@ -1,0 +1,44 @@
+miot_ac_set_fan_speed_percent:
+  name: Set fan speed percent
+  description: Sets fan speed.
+  target:
+  fields:
+    fan_speed_percent:
+      name: Speed percent
+      description: Percent value (1-100) or auto (101)
+      required: true
+      selector:
+        number:
+          min: 1
+          max: 101
+
+miot_ac_set_delay_on_timer:
+  name: Set climate delay on timer
+  description: After specified delay, the climate would be turned on.
+  target:
+  fields:
+    minutes:
+      name: Delay on minutes
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 720
+
+miot_ac_set_delay_off_timer:
+  name: Set climate delay off timer
+  description: After specified delay, the climate would be turned off.
+  target:
+  fields:
+    minutes:
+      name: Delay off minutes
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 720
+
+miot_ac_cencel_timer:
+  name: Cancel climate delay timer
+  description: Cancel the timer set by service or IR remote.
+  target:
