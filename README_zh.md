@@ -1,6 +1,6 @@
 # xiaomi_miot_air_conditioner
 
-小米互联网空题A (MIoT协议) 的Home Assistant插件，基于`python-miio`
+小米互联网空调A (MIoT协议) 的Home Assistant插件，基于`python-miio`
 
 [English](README.md)
 
@@ -32,7 +32,7 @@
 
 ## 配置说明
 
-打开`Lovelace` -> `配置` -> `设备与服务` -> `添加集成` -> `xiaomi_miot_air_conditioner`, 填写设备IP、token、名称、重试次数，提交即可。
+打开`Lovelace` -> `配置` -> `设备与服务` -> `添加集成` -> `xiaomi_miot_air_conditioner`，填写设备IP、token、名称、重试次数，提交即可。
 
 
 ## Lovelace配置示例
@@ -44,7 +44,7 @@
 ```yaml
 type: custom:mini-climate
 entity: climate.xiaomi_ac
-name: 小米空调
+name: 空调
 target_temperature:
   icons:
     up: mdi:chevron-up
